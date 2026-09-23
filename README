@@ -1,0 +1,14 @@
+# 🛒 Retail Shelf Stock & Out-of-Stock Tracking System (YOLO11)
+
+Automated computer vision pipeline built with **YOLO11 Nano** and **Gradio** for retail shelf inventory auditing.
+
+## 📁 Repository Contents
+- `retail_shelf_tracking.ipynb`: End-to-end training, evaluation, and inference notebook.
+- `best.pt`: Trained YOLO11 model weights.
+- `results.png`: Model training metrics loss and mAP graphs.
+
+## 📊 Key Metrics
+- **Model Architecture**: YOLO11n (`imgsz=1280`)
+- **Dataset**: Roboflow Retail Shelf V2 (`object`, `empty`)
+- **Object mAP@50**: 86.3%
+- **Inference Speed**: ~11.0 ms
